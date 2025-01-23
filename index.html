@@ -18,7 +18,7 @@
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Work</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#resume" class="resume-btn">Resume</a></li>
+          <li><a href="resume.html" class="resume-btn">Resume</a></li>
         </ul>
       </div>
     </nav>
@@ -50,7 +50,11 @@
         </div>
         <div class="hero-visual">
           <div class="profile-container">
-            <img src="profile.jpg" alt="Profile Photo" class="profile-img" />
+            <img
+              src="Resource/profile_photo.jpeg"
+              alt="Profile Photo"
+              class="profile-img"
+            />
             <div class="profile-bg"></div>
           </div>
         </div>
@@ -58,64 +62,101 @@
     </header>
 
     <section id="projects">
-      <div class="section-header">
-        <span class="section-subtitle">Portfolio</span>
-        <h2>Featured Projects</h2>
+      <div class="section-header text-center">
+        <span class="section-subtitle"></span>
+        <h2>Featured Projects <i class="fas fa-code"></i></h2>
+        <p class="section-description">
+          Showcasing my recent development work and contributions
+        </p>
       </div>
       <div class="projects-grid">
-        <article class="project-card">
-          <div class="project-image">
-            <img src="project1.jpg" alt="Project 1" />
-            <div class="project-overlay">
-              <div class="project-links">
-                <a href="#" class="project-link"
-                  ><i class="fas fa-external-link-alt"></i
-                ></a>
-                <a href="#" class="project-link"
-                  ><i class="fab fa-github"></i
-                ></a>
-              </div>
-            </div>
-          </div>
+        <div class="project-card">
           <div class="project-content">
-            <h3>Project Title</h3>
-            <p>A brief description of the project and the technologies used.</p>
+            <div class="project-header">
+              <h3><i class="fas fa-users"></i> GatherRing</h3>
+              <p class="project-subtitle">Event Meetup Platform</p>
+            </div>
+            <p class="project-description">
+              Python/Django social app designed to simplify event planning and
+              foster community engagement. Built with modern cloud architecture
+              using AWS services.
+            </p>
             <div class="tech-stack">
-              <span>React</span>
-              <span>Node.js</span>
-              <span>MongoDB</span>
+              <span>Python</span>
+              <span>Django</span>
+              <span>AWS EB</span>
+              <span>RDS</span>
+              <span>S3</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fab fa-github"></i> View Project</a
+              >
             </div>
           </div>
-        </article>
-        <!-- More project cards -->
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <div class="project-header">
+              <h3><i class="fas fa-robot"></i> Terms Simplifier</h3>
+              <p class="project-subtitle">AI-Powered Document Analysis</p>
+            </div>
+            <p class="project-description">
+              Open Source AI Hackathon project utilizing OctoAI (LLM) to
+              streamline reading terms and conditions, highlighting key points
+              to save user time and improve focus.
+            </p>
+            <div class="tech-stack">
+              <span>OctoAI</span>
+              <span>LLM</span>
+              <span>Python</span>
+              <span>AI/ML</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fab fa-github"></i> View Project</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="contact">
-      <div class="section-header">
-        <span class="section-subtitle">Contact</span>
-        <h2>Get In Touch</h2>
+      <div class="section-header text-center">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2>Contact Me <i class="fas fa-paper-plane"></i></h2>
+        <p class="section-description">
+          Feel free to reach out for collaborations or just a friendly hello
+        </p>
       </div>
       <div class="contact-container">
-        <div class="contact-content">
-          <p>
-            I'm currently open for new opportunities. Whether you have a
-            question or just want to say hi, I'll try my best to get back to
-            you!
-          </p>
-          <a href="mailto:hello@example.com" class="primary-btn">Say Hello</a>
-        </div>
-        <div class="social-links">
-          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+        <div class="contact-card">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:aswton@gmail.com">aswton@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/sangwona" target="_blank"
+                >github.com/sangwona</a
+              >
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://linkedin.com/in/sangwon-an" target="_blank"
+                >linkedin.com/in/sangwon-an</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <footer>
-      <p>Designed & Built by John Doe © 2024</p>
+      <p>Designed & Built by Sangwon An © 2024</p>
     </footer>
   </body>
 </html>
